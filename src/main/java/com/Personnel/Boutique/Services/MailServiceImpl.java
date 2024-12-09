@@ -43,15 +43,17 @@ public class MailServiceImpl implements MailService   {
 
     @Override
     public Mail update(Long Id,Mail mail) {
-        Mail users=this.getMail(Id);
-        users.setEmail(mail.getEmail());
-        users.setReciver(mail.getReciver());
-        users.setObjet(mail.getObjet());
-        users.setDescription(mail.getDescription());
+        Mail existingMail = mailRepository.findById(Id)
+                .orElseThrow(() -> new RuntimeException("Mail with ID " + Id + " not found"));
 
-        Mail req=mailRepository.save(users);
-        return req;
+        // Mettre à jour les champs
+        if (mail.getEmail() != null) existingMail.setEmail(mail.getEmail());
+        if (mail.getReciver() != null) existingMail.setReciver(mail.getReciver());
+        if (mail.getObjet() != null) existingMail.setObjet(mail.getObjet());
+        if (mail.getDescription() != null) existingMail.setDescription(mail.getDescription());
 
+        // Enregistrer les modifications
+        return mailRepository.save(existingMail);
     }
 
     @Override
@@ -72,7 +74,5 @@ public class MailServiceImpl implements MailService   {
         Mail mail = mailRepository.findById(id).orElse(null);
         return mail;
     }
-
-
 
 }

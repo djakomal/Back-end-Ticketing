@@ -15,6 +15,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/CRUD")
 @CrossOrigin(origins = "http://localhost:4200")
+//@CrossOrigin(origins = "http://localhost:5173")
 public class MailController {
 
     @Autowired
@@ -31,8 +32,8 @@ public class MailController {
     }
 
 
-    @PutMapping("/update")
-    public Mail update(@PathVariable Long Id,@RequestBody Mail mail){
+    @PutMapping("/update/{Id}")
+    public Mail update(@PathVariable("Id") Long Id,@RequestBody Mail mail){
 
         return  mailService.update(Id,mail);
     }
