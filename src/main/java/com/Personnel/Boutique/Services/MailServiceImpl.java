@@ -75,4 +75,12 @@ public class MailServiceImpl implements MailService   {
         return mail;
     }
 
+
+    @Override
+    public Mail getByemail(String email) {
+        return (Mail) mailRepository.findByEmail(email);
+
+    }
+
+
 }

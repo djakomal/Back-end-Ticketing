@@ -14,8 +14,8 @@ import java.util.List;
 @Controller
 @RestController
 @RequestMapping("/CRUD")
-@CrossOrigin(origins = "http://localhost:4200")
-//@CrossOrigin(origins = "http://localhost:5173")
+//@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "http://localhost:5173")
 public class MailController {
 
     @Autowired
@@ -47,5 +47,12 @@ public class MailController {
     public  Mail getMail(@PathVariable Long id){
         return  mailService.getMail(id);
     }
+
+    @GetMapping("/get/email/{email}")
+    public  Mail getByemail(@PathVariable("email") String  email){
+        return  mailService.getByemail(email);
+    }
+
+
 
 }

@@ -20,4 +20,7 @@ public interface MailService {
     Mail getMail(Long id);
 
 
+    Mail getByemail(String email);
+
+
 }
