@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="aedb3809-7930-4133-bee8-172d5dabf973" name="Changes" comment="get by email">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Personnel/Boutique/BoutiqueApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Personnel/Boutique/Controller/MailController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Personnel/Boutique/Enum/Prices.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Personnel/Boutique/Exception/ExeceptionMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Personnel/Boutique/Exception/MailException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Personnel/Boutique/Models/Mail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Personnel/Boutique/Repository/MailRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Personnel/Boutique/Services/MailService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Personnel/Boutique/Services/MailServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Personnel/Boutique/dtos/MailDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Personnel/Boutique/mappers/Maildtomapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/Personnel/Boutique/BoutiqueApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Personnel/Ticketing/TicketingApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Enum" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2d21byC1XkjR8IbhMSC7znMUN6G" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Ticketing/Ticketing",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "spring.configuration.checksum": "cfaf9369fa7d8dad14cc9d116d4a7b08",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Rafiou\Documents\GitHub\Boutique\Boutique\src\main\java\com\Personnel\Boutique" />
+      <recent name="C:\Users\Rafiou\Documents\GitHub\Boutique\Boutique\src\main\java\com\Personnel" />
+      <recent name="C:\Users\Rafiou\Documents\GitHub\Boutique\Boutique\src\main\java\com" />
+      <recent name="C:\Users\Rafiou\Documents\GitHub\Boutique\Boutique\src\main\java\com\Models" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.Personnel.Boutique.mappers" />
+      <recent name="com.Personnel.Boutique.dtos" />
+      <recent name="com.Personnel.Boutique.Exception" />
+      <recent name="com.Personnel.Boutique.Controller" />
+      <recent name="com.Personnel.Boutique.Services" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.TicketingApplication">
+    <configuration name="BoutiqueApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="Boutique" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Personnel.Boutique.BoutiqueApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Personnel.Boutique.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TicketingApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Boutique" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Personnel.Ticketing.TicketingApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Personnel.Ticketing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.BoutiqueApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Rafiou\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aedb3809-7930-4133-bee8-172d5dabf973" name="Changes" comment="" />
+      <created>1709191436677</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1709191436677</updated>
+      <workItem from="1709191438620" duration="8899000" />
+      <workItem from="1711988146869" duration="1961000" />
+      <workItem from="1712839707281" duration="1343000" />
+      <workItem from="1724967035931" duration="6969000" />
+      <workItem from="1725015391084" duration="8402000" />
+      <workItem from="1727706519524" duration="2273000" />
+      <workItem from="1729357391511" duration="1866000" />
+      <workItem from="1729520198547" duration="64000" />
+      <workItem from="1729527050492" duration="153000" />
+      <workItem from="1730229000287" duration="3710000" />
+      <workItem from="1730284871225" duration="7448000" />
+      <workItem from="1730442805492" duration="2052000" />
+      <workItem from="1731412860868" duration="26941000" />
+      <workItem from="1734082617752" duration="2637000" />
+      <workItem from="1736280864042" duration="1373000" />
+      <workItem from="1737109715151" duration="9885000" />
+      <workItem from="1737124183736" duration="943000" />
+    </task>
+    <task id="LOCAL-00001" summary="update">
+      <created>1733752820465</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1733752820465</updated>
+    </task>
+    <task id="LOCAL-00002" summary="get by email">
+      <created>1733840386191</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1733840386192</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update" />
+    <MESSAGE value="get by email" />
+    <option name="LAST_COMMIT_MESSAGE" value="get by email" />
+  </component>
+</project>
