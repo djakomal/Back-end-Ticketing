@@ -7,8 +7,8 @@ import org.springframework.stereotype.Component;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2025-01-17T11:32:34+0000",
-    comments = "version: 1.4.2.Final, compiler: javac, environment: Java 17.0.9 (Oracle Corporation)"
+    date = "2025-02-06T09:38:39+0000",
+    comments = "version: 1.4.2.Final, compiler: javac, environment: Java 17.0.12 (Amazon.com Inc.)"
 )
 @Component
 public class TicketsdtomapperImpl implements Ticketsdtomapper {
@@ -22,7 +22,13 @@ public class TicketsdtomapperImpl implements Ticketsdtomapper {
         TicketsDto ticketsDto = new TicketsDto();
 
         ticketsDto.setId( tickets.getId() );
+        ticketsDto.setName( tickets.getName() );
         ticketsDto.setDescription( tickets.getDescription() );
+        ticketsDto.setArtiste( tickets.getArtiste() );
+        ticketsDto.setCategories( tickets.getCategories() );
+        ticketsDto.setDate( tickets.getDate() );
+        ticketsDto.setBudget( tickets.getBudget() );
+        ticketsDto.setInvited( tickets.getInvited() );
 
         return ticketsDto;
     }
@@ -36,7 +42,13 @@ public class TicketsdtomapperImpl implements Ticketsdtomapper {
         TicketsDto ticketsDto = new TicketsDto();
 
         ticketsDto.setId( tickets.getId() );
+        ticketsDto.setName( tickets.getName() );
         ticketsDto.setDescription( tickets.getDescription() );
+        ticketsDto.setArtiste( tickets.getArtiste() );
+        ticketsDto.setCategories( tickets.getCategories() );
+        ticketsDto.setDate( tickets.getDate() );
+        ticketsDto.setBudget( tickets.getBudget() );
+        ticketsDto.setInvited( tickets.getInvited() );
 
         return ticketsDto;
     }
@@ -50,7 +62,13 @@ public class TicketsdtomapperImpl implements Ticketsdtomapper {
         Tickets tickets = new Tickets();
 
         tickets.setId( ticketsDto.getId() );
+        tickets.setName( ticketsDto.getName() );
         tickets.setDescription( ticketsDto.getDescription() );
+        tickets.setArtiste( ticketsDto.getArtiste() );
+        tickets.setCategories( ticketsDto.getCategories() );
+        tickets.setDate( ticketsDto.getDate() );
+        tickets.setBudget( ticketsDto.getBudget() );
+        tickets.setInvited( ticketsDto.getInvited() );
 
         return tickets;
     }

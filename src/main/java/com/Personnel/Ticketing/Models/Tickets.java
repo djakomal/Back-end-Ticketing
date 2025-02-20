@@ -5,6 +5,9 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.io.File;
+import java.lang.reflect.Field;
+
 @Entity
 @Data
 @AllArgsConstructor
@@ -38,4 +41,18 @@ public class Tickets {
 
     @Column(name = "Invited")
     private String Invited;
+
+    @Column(name = "lieu")
+    private String Lieu;
+
+    @Column(name = "Jour")
+    private String Jour;
+
+    @Column(name = "mois")
+    private String Mois;
+
+    @Column(name = "photo")
+    private File photo;
+
+
 }

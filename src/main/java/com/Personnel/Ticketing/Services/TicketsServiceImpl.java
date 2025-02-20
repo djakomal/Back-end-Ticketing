@@ -1,17 +1,14 @@
 package com.Personnel.Ticketing.Services;
-
-
-
 import com.Personnel.Ticketing.Exception.TicketingException;
-
-
 import com.Personnel.Ticketing.Models.Tickets;
 import com.Personnel.Ticketing.Repository.TicketsRepository;
+import net.coobird.thumbnailator.Thumbnails;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
-
 import org.springframework.stereotype.Service;
-
+import org.springframework.web.multipart.MultipartFile;
+import java.io.File;
+import java.io.IOException;
 import java.util.List;
 import java.util.Optional;
 
@@ -51,7 +48,9 @@ public class TicketsServiceImpl implements TicketsService   {
         if (tickets.getCategories() != null) existingTickets.setCategories(tickets.getCategories());
         if (tickets.getDate() != null) existingTickets.setDate(tickets.getDate());
         if (tickets.getBudget() != null) existingTickets.setBudget(tickets.getBudget());
-        if (tickets.getInvited() != null) existingTickets.setInvited(tickets.getInvited());
+        if (tickets.getLieu() != null) existingTickets.setLieu(tickets.getLieu());
+        if (tickets.getMois() != null) existingTickets.setMois(tickets.getMois());
+        if (tickets.getJour() != null) existingTickets.setJour(tickets.getJour());
 
 
         // Enregistrer les modifications
@@ -82,6 +81,24 @@ public class TicketsServiceImpl implements TicketsService   {
     public Tickets getByname(String name) {
         return  ticketsRepository.findByName(name);
 
+    }
+
+    @Override
+    public String saveAndResizeImage(MultipartFile file, int width, int height) throws IOException {
+        // Définir le chemin de sauvegarde
+        String uploadDir = "uploads/";
+        File dir = new File(uploadDir);
+        if (!dir.exists()) dir.mkdirs();
+
+        // Chemin complet du fichier
+        String filePath = uploadDir + file.getOriginalFilename();
+
+        // Redimensionner et enregistrer l'image
+        Thumbnails.of(file.getInputStream())
+                .size(width, height)
+                .toFile(filePath);
+
+        return filePath; // Retourner le chemin de l'image sauvegardée
     }
 
 

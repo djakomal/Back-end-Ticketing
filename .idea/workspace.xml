@@ -4,22 +4,44 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aedb3809-7930-4133-bee8-172d5dabf973" name="Changes" comment="get by email">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Personnel/Boutique/BoutiqueApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Personnel/Boutique/Controller/MailController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Personnel/Boutique/Enum/Prices.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Personnel/Boutique/Exception/ExeceptionMessage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Personnel/Boutique/Exception/MailException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Personnel/Boutique/Models/Mail.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Personnel/Boutique/Repository/MailRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Personnel/Boutique/Services/MailService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Personnel/Boutique/Services/MailServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Personnel/Boutique/dtos/MailDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Personnel/Boutique/mappers/Maildtomapper.java" beforeDir="false" />
+    <list default="true" id="aedb3809-7930-4133-bee8-172d5dabf973" name="Changes" comment="new attributs">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/Controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/Controller/UtilisateurController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/Exception/TokenInvalideException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/Models/Jwt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/Models/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/Models/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/Models/Utilisateur.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/Repository/JwtDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/Repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/Repository/UtilisateurDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/Services/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/Services/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/Services/UtilisateurService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/Services/UtilisateurServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/TypeDeRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/dtos/AuthentificationDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/dtos/UserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/security/ConfigurationCryptagePassword.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/security/ConfigurationSecuriteApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/security/JwtFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/security/JwtService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/Controller/TicketsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/Controller/TicketsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/Models/Tickets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/Models/Tickets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/Services/TicketsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/Services/TicketsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/Services/TicketsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/Services/TicketsServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Personnel/Boutique/BoutiqueApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Personnel/Ticketing/TicketingApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Personnel/Ticketing/Controller/TicketsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Personnel/Ticketing/Controller/TicketsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Personnel/Ticketing/Models/Tickets.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Personnel/Ticketing/Models/Tickets.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Personnel/Ticketing/Services/TicketsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Personnel/Ticketing/Services/TicketsService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Personnel/Ticketing/Services/TicketsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Personnel/Ticketing/Services/TicketsServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Personnel/Ticketing/mappers/TicketsdtomapperImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Personnel/Ticketing/mappers/TicketsdtomapperImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/com/Personnel/Ticketing/mappers/TicketsdtomapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/com/Personnel/Ticketing/mappers/TicketsdtomapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-cli/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-cli/inputFiles.lst" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,8 +51,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -49,36 +72,48 @@
     </option>
   </component>
   <component name="ProjectId" id="2d21byC1XkjR8IbhMSC7znMUN6G" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Ticketing/Ticketing",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "spring.configuration.checksum": "cfaf9369fa7d8dad14cc9d116d4a7b08",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Ticketing/Ticketing/src/main/java/com/Personnel/Ticketing/Repository&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;cfaf9369fa7d8dad14cc9d116d4a7b08&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Ticketing\Ticketing\src\main\java\com\Personnel\Ticketing\Repository" />
+      <recent name="C:\Ticketing\Ticketing\src\main\java\com\Personnel\Ticketing" />
+      <recent name="C:\Ticketing\Ticketing\src\main\java\com\Personnel\Ticketing\Models" />
+      <recent name="C:\Ticketing\Ticketing\src\main\java\com\Personnel\Ticketing\Controller" />
+      <recent name="C:\Ticketing\Ticketing\src\main\java\com\Personnel\Ticketing\dtos" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Rafiou\Documents\GitHub\Boutique\Boutique\src\main\java\com\Personnel\Boutique" />
       <recent name="C:\Users\Rafiou\Documents\GitHub\Boutique\Boutique\src\main\java\com\Personnel" />
       <recent name="C:\Users\Rafiou\Documents\GitHub\Boutique\Boutique\src\main\java\com" />
       <recent name="C:\Users\Rafiou\Documents\GitHub\Boutique\Boutique\src\main\java\com\Models" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.Personnel.Ticketing.Models" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.Personnel.Boutique.mappers" />
@@ -118,6 +153,16 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -155,7 +200,13 @@
       <workItem from="1734082617752" duration="2637000" />
       <workItem from="1736280864042" duration="1373000" />
       <workItem from="1737109715151" duration="9885000" />
-      <workItem from="1737124183736" duration="943000" />
+      <workItem from="1737124183736" duration="1628000" />
+      <workItem from="1737135943042" duration="16871000" />
+      <workItem from="1738657762585" duration="1198000" />
+      <workItem from="1738702346373" duration="5319000" />
+      <workItem from="1738779149327" duration="7352000" />
+      <workItem from="1739444920979" duration="6047000" />
+      <workItem from="1740073669310" duration="373000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1733752820465</created>
@@ -177,9 +228,27 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update" />
     <MESSAGE value="get by email" />
-    <option name="LAST_COMMIT_MESSAGE" value="get by email" />
+    <MESSAGE value="new attributs" />
+    <option name="LAST_COMMIT_MESSAGE" value="new attributs" />
   </component>
 </project>
