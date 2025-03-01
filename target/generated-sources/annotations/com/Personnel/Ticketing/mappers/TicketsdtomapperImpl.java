@@ -1,13 +1,13 @@
 package com.Personnel.Ticketing.mappers;
 
 import com.Personnel.Ticketing.Models.Tickets;
-import com.Personnel.Ticketing.dtos.TicketsDto;
+import com.Personnel.Ticketing.dto.TicketsDto;
 import javax.annotation.processing.Generated;
 import org.springframework.stereotype.Component;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2025-02-06T09:38:39+0000",
+    date = "2025-03-01T01:50:23+0000",
     comments = "version: 1.4.2.Final, compiler: javac, environment: Java 17.0.12 (Amazon.com Inc.)"
 )
 @Component
@@ -29,6 +29,10 @@ public class TicketsdtomapperImpl implements Ticketsdtomapper {
         ticketsDto.setDate( tickets.getDate() );
         ticketsDto.setBudget( tickets.getBudget() );
         ticketsDto.setInvited( tickets.getInvited() );
+        ticketsDto.setLieu( tickets.getLieu() );
+        ticketsDto.setJour( tickets.getJour() );
+        ticketsDto.setMois( tickets.getMois() );
+        ticketsDto.setPhoto( tickets.getPhoto() );
 
         return ticketsDto;
     }
@@ -49,6 +53,10 @@ public class TicketsdtomapperImpl implements Ticketsdtomapper {
         ticketsDto.setDate( tickets.getDate() );
         ticketsDto.setBudget( tickets.getBudget() );
         ticketsDto.setInvited( tickets.getInvited() );
+        ticketsDto.setLieu( tickets.getLieu() );
+        ticketsDto.setJour( tickets.getJour() );
+        ticketsDto.setMois( tickets.getMois() );
+        ticketsDto.setPhoto( tickets.getPhoto() );
 
         return ticketsDto;
     }
@@ -69,6 +77,10 @@ public class TicketsdtomapperImpl implements Ticketsdtomapper {
         tickets.setDate( ticketsDto.getDate() );
         tickets.setBudget( ticketsDto.getBudget() );
         tickets.setInvited( ticketsDto.getInvited() );
+        tickets.setLieu( ticketsDto.getLieu() );
+        tickets.setJour( ticketsDto.getJour() );
+        tickets.setMois( ticketsDto.getMois() );
+        tickets.setPhoto( ticketsDto.getPhoto() );
 
         return tickets;
     }

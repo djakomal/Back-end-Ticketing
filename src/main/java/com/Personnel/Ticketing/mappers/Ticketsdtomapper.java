@@ -2,7 +2,8 @@ package com.Personnel.Ticketing.mappers;
 
 
 import com.Personnel.Ticketing.Models.Tickets;
-import com.Personnel.Ticketing.dtos.TicketsDto;
+
+import com.Personnel.Ticketing.dto.TicketsDto;
 import org.mapstruct.Mapper;
 import org.mapstruct.factory.Mappers;
 
