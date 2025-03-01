@@ -4,44 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aedb3809-7930-4133-bee8-172d5dabf973" name="Changes" comment="new attributs">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/Controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/Controller/UtilisateurController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/Exception/TokenInvalideException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/Models/Jwt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/Models/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/Models/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/Models/Utilisateur.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/Repository/JwtDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/Repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/Repository/UtilisateurDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/Services/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/Services/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/Services/UtilisateurService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/Services/UtilisateurServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/TypeDeRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/dtos/AuthentificationDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/dtos/UserDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/security/ConfigurationCryptagePassword.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/security/ConfigurationSecuriteApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/security/JwtFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/security/JwtService.java" afterDir="false" />
+    <list default="true" id="aedb3809-7930-4133-bee8-172d5dabf973" name="Changes" comment="Authentification">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/Controller/TicketsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/Controller/TicketsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/Models/Tickets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/Models/Tickets.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/Services/TicketsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/Services/TicketsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/Services/TicketsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/Services/TicketsServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Personnel/Ticketing/Controller/TicketsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Personnel/Ticketing/Controller/TicketsController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Personnel/Ticketing/Models/Tickets.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Personnel/Ticketing/Models/Tickets.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Personnel/Ticketing/Services/TicketsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Personnel/Ticketing/Services/TicketsService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Personnel/Ticketing/Services/TicketsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Personnel/Ticketing/Services/TicketsServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Personnel/Ticketing/mappers/TicketsdtomapperImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Personnel/Ticketing/mappers/TicketsdtomapperImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/com/Personnel/Ticketing/mappers/TicketsdtomapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/com/Personnel/Ticketing/mappers/TicketsdtomapperImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-cli/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-cli/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/Controller/TicketsController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/Controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/Controller/UtilisateurController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/Enum/Prices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/Enum/Prices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/Exception/ExeceptionMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/Exception/ExeceptionMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/Exception/TicketingException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/Exception/TicketingException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/Exception/TokenInvalideException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/Exception/TokenInvalideException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/Models/Jwt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/Models/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/Models/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/Models/Utilisateur.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/Repository/JwtDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/Repository/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/Repository/UtilisateurDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/Services/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/Services/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/Services/UtilisateurService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/Services/UtilisateurServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/TypeDeRole.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/dtos/AuthentificationDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/dtos/TicketsDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/dtos/UserDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/security/ConfigurationCryptagePassword.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/security/ConfigurationSecuriteApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/security/JwtFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/security/JwtService.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -222,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1733840386192</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Authentification">
+      <created>1740790323236</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1740790323236</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,6 +246,7 @@
     <MESSAGE value="update" />
     <MESSAGE value="get by email" />
     <MESSAGE value="new attributs" />
-    <option name="LAST_COMMIT_MESSAGE" value="new attributs" />
+    <MESSAGE value="Authentification" />
+    <option name="LAST_COMMIT_MESSAGE" value="Authentification" />
   </component>
 </project>
