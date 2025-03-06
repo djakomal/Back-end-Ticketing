@@ -4,49 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aedb3809-7930-4133-bee8-172d5dabf973" name="Changes" comment="suppresion">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/Models/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/Services/AuthService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/Services/AuthServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/configuration/SimpleCorsFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/configuration/WebSecurityConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/controllers/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/controllers/SignupController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/controllers/TicketsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/dto/LoginRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/dto/LoginResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/dto/SignupRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/dto/TicketsDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/filters/JwtRequestFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/jwt/CustomerServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/utils/JwtUtil.java" afterDir="false" />
+    <list default="true" id="aedb3809-7930-4133-bee8-172d5dabf973" name="Changes" comment="Authentification jwt">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/Exception/ExeceptionMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/Exception/ExeceptionMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/Exception/TicketingException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/Exception/TicketingException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/Services/TicketsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/Services/TicketsServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/Services/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/Services/UtilisateurService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/mappers/Ticketsdtomapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/mappers/Ticketsdtomapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/configuration/WebSecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/configuration/WebSecurityConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/controllers/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/controllers/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/controllers/SignupController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Personnel/Ticketing/controllers/SignupController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Personnel/Ticketing/Controller/LoginController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Personnel/Ticketing/Controller/SignupController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Personnel/Ticketing/Controller/TicketsController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Personnel/Ticketing/Enum/Prices.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Personnel/Ticketing/Exception/TokenInvalideException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Personnel/Ticketing/Services/AuthService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Personnel/Ticketing/Services/AuthService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Personnel/Ticketing/Services/AuthServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Personnel/Ticketing/Services/AuthServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Personnel/Ticketing/Services/TicketsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Personnel/Ticketing/Services/TicketsServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Personnel/Ticketing/Services/jwt/CustomerServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Personnel/Ticketing/configuration/WebSecurityConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Personnel/Ticketing/configuration/WebSecurityConfiguration.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Personnel/Ticketing/dtos/LoginRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Personnel/Ticketing/dtos/LoginResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Personnel/Ticketing/dtos/SignupRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Personnel/Ticketing/dtos/TicketsDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Personnel/Ticketing/filters/JwtRequestFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Personnel/Ticketing/filters/JwtRequestFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Personnel/Ticketing/mappers/Ticketsdtomapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Personnel/Ticketing/mappers/Ticketsdtomapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Personnel/Ticketing/mappers/TicketsdtomapperImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Personnel/Ticketing/mappers/TicketsdtomapperImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/com/Personnel/Ticketing/mappers/TicketsdtomapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/com/Personnel/Ticketing/mappers/TicketsdtomapperImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -95,7 +60,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Ticketing/Ticketing/src/main/java/com/Personnel/Ticketing",
+    "last_opened_file_path": "C:/Users/Rafiou/Documents/GitHub/medical",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -214,6 +179,11 @@
       <workItem from="1738779149327" duration="7352000" />
       <workItem from="1739444920979" duration="6047000" />
       <workItem from="1740073669310" duration="373000" />
+      <workItem from="1740998389761" duration="509000" />
+      <workItem from="1741009861224" duration="1013000" />
+      <workItem from="1741010925648" duration="2645000" />
+      <workItem from="1741080243356" duration="5183000" />
+      <workItem from="1741165041805" duration="9935000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1733752820465</created>
@@ -250,7 +220,21 @@
       <option name="project" value="LOCAL" />
       <updated>1740790837574</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Authentification jwt">
+      <created>1740794407685</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1740794407685</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Authentification jwt">
+      <created>1740794457854</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1740794457854</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,6 +263,7 @@
     <MESSAGE value="new attributs" />
     <MESSAGE value="Authentification" />
     <MESSAGE value="suppresion" />
-    <option name="LAST_COMMIT_MESSAGE" value="suppresion" />
+    <MESSAGE value="Authentification jwt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Authentification jwt" />
   </component>
 </project>

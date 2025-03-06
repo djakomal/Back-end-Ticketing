@@ -30,7 +30,7 @@ public class WebSecurityConfiguration {
 
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity security) throws Exception {
-        return security.csrf().disable()
+        return security.cors().and().csrf().disable()
                 .authorizeHttpRequests()
                 .requestMatchers("/signup", "/login").permitAll()
                 .and()
